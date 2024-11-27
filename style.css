@@ -1,0 +1,52 @@
+body {
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tableau-style {
+    /* border collapse signifie la fusion de deux bordure en 1  */
+    border-collapse: collapse;
+    /* min widht la taille du tableau  */
+    min-width: 400px   ;
+    width: auto;
+    /* box shadow est l'omnbre du tableau */
+    box-shadow: 0 5px 50px rgba(0,0,0,0.15);
+    /* cursor = la souris quand on passe sur le texte */
+    cursor: pointer;
+    /* margin est la marge de du tableau dans la hauteur de la page */
+    margin: 100px auto;
+    /* border est la bordure du tableau  */
+    border: 2px solid #70CAD1 ;
+}
+/* le top du tableau */
+thead tr {
+    background: linear-gradient(rgb(0, 128, 255), pink);
+    color:#fff;
+    text-align: left;
+    
+}
+/* l'interieur du tableau */
+th, td {
+    padding: 15px 20px;
+}
+tbody tr, td, th {
+    border: 1px solid #ddd;
+}
+tbody tr:nth-child(even)
+{
+    background-color: #f3f3f3 ;
+}
+tbody tr:last-of-type{
+    border-bottom: 2px solid black;
+
+}
+h1{
+    color: #B28C5F ;
+    cursor: vertical-text;
+    padding:16px;
+    font-size: 32px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:lighter;
+ text-align:center;
+ 
+}
